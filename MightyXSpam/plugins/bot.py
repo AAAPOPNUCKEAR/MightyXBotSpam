@@ -14,9 +14,9 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/2ead82e77994638db6e39.jpg"
+MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/65494c9266c3ea92c49dc.jpg"
 
-MIG_TEXT = ALIVE_TEXT if ALIVE_TEXT else "╚»★ 𝗠𝗶𝗴𝗵𝘁𝘆𝗫𝗦𝗽𝗮𝗺 𝗶𝘀 𝗛𝗲𝗿𝗲 ★«╝"
+MIG_TEXT = ALIVE_TEXT if ALIVE_TEXT else "♡︎𝙉𝙪𝙘𝙡𝙚𝙖𝙧𝙓𝙨𝙥𝙖𝙢♡︎"
 
                                   
 @Mig.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -40,8 +40,8 @@ async def alive(event):
       await event.client.send_file(event.chat_id,
                                   MIG_PIC, caption=f"""{MIG_TEXT}\n\n═══════════════════\n⚡ 𝐏𝐢𝐧𝐠  : `{ms}ᵐˢ`\n⚡ 𝐎𝐰𝐧𝐞𝐫 : {mention}\n⚡ 𝐌𝐢𝐠𝐡𝐭𝐲 𝐗 𝐒𝐩𝐚𝐦 : `{mightyversion}`\n⚡ 𝐏𝐲𝐭𝐡𝐨𝐧 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : `3.9.6`\n⚡ 𝐓𝐞𝐥𝐞𝐭𝐡𝐨𝐧 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : `{version.__version__}`\n═══════════════════\n\n""", buttons=[
         [
-        Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/MightyXUpdates"),
-        Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/MightyXSupport")
+        Button.url("✨ 𝖔𝖜𝖓𝖊𝖗 ✨", "https://t.me/NucLeaR_xD"),
+        Button.url("✨ 𝖈𝖗𝖊𝖆𝖙𝖔𝖗 ✨", "https://t.me/NucLeaR_xD")
         ],
         [
         Button.url("🔥 ʀᴇᴘᴏ 🔥", "https://github.com/BeingMighty/MightyBotSpamDeploy")
@@ -89,7 +89,7 @@ def get_readable_time(seconds: int) -> str:
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        text = "𝙋𝙤𝙣𝙜!"
+        text = "♡︎Pong♡︎!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
