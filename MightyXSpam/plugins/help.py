@@ -27,17 +27,17 @@ async def help(event):
                                   caption=Mig_Help,
                                   buttons=[
            [
-            Button.inline("🔥 Spam 🔥", data="spam"),
-            Button.inline("😈 Raid 😈", data="raid"),
+            Button.inline("★ 𝖘𝖕𝖆𝖒 ★", data="spam"),
+            Button.inline("✰ 𝖗𝖆𝖎𝖉 ✰", data="raid"),
            ],
            [
-            Button.inline("⚡ Extra ⚡", data="extra"),
+            Button.inline("✯ 𝖊𝖝𝖙𝖗𝖆 ✯", data="extra"),
            ],
            [    
-            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/MightyXUpdates")
+            Button.url("✩ 𝖔𝖜𝖓𝖊𝖗 ☆", "https://t.me/NucLeaR_xD")
            ],
            [
-           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/MightyXSupport")
+           Button.url("✯ 𝖘𝖚𝖕𝖕𝖔𝖗𝖙 ✵", "https://t.me/NucLeaR_xD")
            ],
            ],
            )              
@@ -146,23 +146,23 @@ async def helpback(event):
             Mig_Help,
             buttons=[
            [
-            Button.inline("🔥 Spam 🔥", data="spam"),
-            Button.inline("😈 Raid 😈", data="raid"),
+            Button.inline("★ 𝖘𝖕𝖆𝖒 ★", data="spam"),
+            Button.inline("✰ 𝖗𝖆𝖎𝖉 ✰", data="raid"),
            ],
            [
-            Button.inline("⚡ Extra ⚡", data="extra"),
+            Button.inline("✯ 𝖊𝖝𝖙𝖗𝖆 ✯", data="extra"),
            ],
            [    
-            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/MightyXUpdates")
+            Button.url("☆ 𝖔𝖜𝖓𝖊𝖗 ☆", "https://t.me/NucLeaR_xD")
            ],
            [
-           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/MightyXSupport")
+           Button.url("☆ 𝖘𝖚𝖕𝖕𝖔𝖗𝖙 ✩", "https://t.me/NucLeaR_xD")
            ],
            ],
         )           
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own Nuclear X Spam Bots !! "
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
@@ -217,7 +217,7 @@ async def help_raid(event):
             )  
      else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own Nuclear X Spam Bots !! "
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
@@ -245,6 +245,6 @@ async def help_extra(event):
             )
    else:
         Alert = (
-                "Noob !! Make Your Own Mighty X Spam Bots !! @MightyXSpam"
+                "Noob !! Make Your Own Nuclear X Spam Bots !! "
             )
         await event.answer(Alert, cache_time=0, alert=True)
