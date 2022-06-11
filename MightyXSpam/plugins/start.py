@@ -11,20 +11,20 @@ MIG_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/2ead82e77994638db
 
 Mig_Button = [
         [
-        Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/@MightyXSupport")
+        Button.url("✨ 𝖘𝖚𝖕𝖕𝖔𝖗𝖙 ✨", "https://t.me/@NucLeaR_xD")
         ],
         [
-        Button.inline("⚡ ᴄᴏᴍᴍᴀɴᴅs ⚡", data="help_back")
+        Button.inline("⚡ 𝖈𝖔𝖒𝖒𝖆𝖓𝖉𝖘 ⚡", data="help_back")
         ]
         ]
                
 MigX_Button = [
         [
-        Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/MightyXUpdates"),
-        Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/MightyXSupport")
+        Button.url("✨ 𝖔𝖜𝖓𝖊𝖗 ✨", "https://t.me/NucLeaR_xD"),
+        Button.url("✨ 𝖘𝖚𝖕𝖕𝖔𝖗𝖙 ✨", "https://t.me/NucLeaR_xD")
         ],
         [
-        Button.url("🔥 ʀᴇᴘᴏ 🔥", "https://github.com/BeingMighty/MightyBotSpamDeploy")
+        Button.url("🔥 𝖗𝖊𝖕𝖔 🔥", "https://github.com/AAAPOPNUCKEAR/MightyBotSpamDeploy")
         ]
         ]
         
